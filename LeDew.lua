@@ -966,7 +966,7 @@ echo '*•━━━━━━━━━•*\n•{ مـده تـشغيـل الـس
 end
 if text == '•تحديث السورس•' and SudoBot(msg) then
 os.execute('rm -rf LeDew.lua')
-os.execute('wget https://raw.githubusercontent.com/Le-Dew/LeDew/main/LeDew.lua')
+os.execute('wget https://raw.githubusercontent.com/TshakeA/LeDew/main/LeDew.lua')
 send(msg.chat_id_, msg.id_,'• تم تحديث السورس')
 dofile('LeDew.lua')
 end
@@ -2256,7 +2256,7 @@ end
 return false
 end
 os.execute('rm -rf LeDew.lua')
-os.execute('wget https://raw.githubusercontent.com/Le-Dew/LeDew/main/LeDew.lua')
+os.execute('wget https://raw.githubusercontent.com/TshakeA/LeDew/main/LeDew.lua')
 send(msg.chat_id_, msg.id_,'• تم تحديث السورس')
 dofile('LeDew.lua')
 end
@@ -11833,7 +11833,6 @@ end
 
 end -- end new msg
 end -- end callback
-
 
 
 
